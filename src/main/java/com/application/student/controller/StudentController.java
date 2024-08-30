@@ -45,7 +45,7 @@ public class StudentController {
     public void deleteStudent(@PathVariable int id){
         Student student =repo.findById(id).get();
         repo.delete(student);
-
+// it is used
     }
 
 }
